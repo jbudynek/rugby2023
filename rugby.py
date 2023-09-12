@@ -5,7 +5,7 @@ import choix
 
 DBG = False
 
-with open('ratings-230907.json') as json_file:
+with open('ratings-230911.json') as json_file:
     data = json.load(json_file)
 
 if DBG: print(data)
@@ -59,65 +59,67 @@ if DBG: print(df2)
 
 # POOL GAMES
 all_pool = [
-	['FRA','NZL'],
+#POOL 1
+#	['FRA','NZL'],
 #9/9
-  	['ITA','NAM'],
-	['IRE','ROU'],
-	['AUS','GEO'],
-	['ENG','ARG'],
+#  	['ITA','NAM'],
+#	['IRE','ROU'],
+#	['AUS','GEO'],
+#	['ENG','ARG'],
 #10/9  	
-    ['RSA','SCO'],
-	['WAL','FIJ'],
-	['JPN','CHI'],
-#14/9  	
+ #   ['RSA','SCO'],
+#	['WAL','FIJ'],
+#	['JPN','CHI'],
+#POOL 2 - 14/9  	
     ['FRA','URU'],
 #15/9  	
     ['NZL','NAM'],
 #16/9  	
-    ['IRE','TGA'],
-	['WAL','POR'],
 	['SAM','CHI'],
+	['WAL','POR'],
+    ['IRE','TGA'],
 #17/9  	
     ['RSA','ROU'],
 	['AUS','FIJ'],
 	['ENG','JPN'],
-#20/9  	
+#POOL 3 - 20/9  	
     ['ITA','URU'],
 #21/9  	
     ['FRA','NAM'],
 #22/9  	
     ['ARG','SAM'],
 #23/9  	
-    ['RSA','IRE'],
 	['GEO','POR'],
 	['ENG','CHI'],
+    ['RSA','IRE'],
 #24/9  	
     ['SCO','TGA'],
 	['WAL','AUS'],
-#27/9  	
+# POOL 4 - 27/9  	
     ['URU','NAM'],
 #28/9  	
     ['JPN','SAM'],
 #29/9  	
     ['NZL','ITA'],
 #30/9  	
-    ['SCO','ROU'],
-	['FIJ','GEO'],
 	['ARG','CHI'],
-#1/10  	['RSA','TGA'],
+	['FIJ','GEO'],
+    ['SCO','ROU'],
+#1/10
 	['AUS','POR'],
-#5/10  	
+  	['RSA','TGA'],
+# POOL 5 - 5/10  	
     ['NZL','URU'],
 #6/10  	
     ['FRA','ITA'],
 #7/10  	
-    ['IRE','SCO'],
 	['WAL','GEO'],
 	['ENG','SAM'],
+    ['IRE','SCO'],
 #8/10  	
+	['JPN','ARG'],
     ['TGA','ROU'],
 	['FIJ','POR'],
-	['JPN','ARG'],
 ]
 
 
