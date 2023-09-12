@@ -1,5 +1,27 @@
 # Rugby 2023
 
+# 230912 - bets on pool #2
+
+Here they are, done with the latest ratings. Seems all straightforward, but who knows what will happen?
+
+<details>
+ <summary>Pool #2 games!</summary>
+ 
+```
+FRA 99.9% -- URU 0.0%
+NZL 99.9% -- NAM 0.0%
+SAM 99.9% -- CHI 0.0%
+WAL 99.9% -- POR 0.0%
+IRE 99.9% -- TGA 0.0%
+RSA 99.9% -- ROU 0.0%
+AUS 98.0% -- FIJ 1.9%
+ENG 99.9% -- JPN 0.0%
+```
+
+</details>
+
+What I would like to do: get some sort of confidence interval. Maybe use historical data to compute my own ranking, using Bradley-Terry, which is what I wanted to do initially. By using more or less historical data, I could make several models, and get a confidence interval like that.
+
 ## 230912 - After first phase of pool games
 So, how did it go with the first phase? Well I got 75% of winners right (6 out 8)
 
@@ -8,7 +30,7 @@ So, how did it go with the first phase? Well I got 75% of winners right (6 out 8
 
 My bets are in bold.
 
-| Team 1 | Team 2 | Winner | x or v? |
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
 |--|--|--|--|
 |**FRA** |NZL| **FRA**|1|
 |**ITA** |NAM |**ITA**|1|
