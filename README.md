@@ -1,5 +1,26 @@
 # Rugby 2023
 
+## 230912 - After first phase of pool games
+So, how did it go with the first phase? Well I got 75% of winners right (6 out 8)
+
+<details>
+ <summary>Results of first round of pool games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | x or v? |
+|--|--|--|--|
+|**FRA** |NZL| **FRA**|1|
+|**ITA** |NAM |**ITA**|1|
+|**IRE** |ROU |**IRE**|1|
+|**AUS** |GEO |**AUS**|1|
+|ENG |**ARG** |**ENG**|0|
+|**RSA** |SCO |**RSA**|1|
+|WAL |**FIJ** |**WAL**|0|
+|**JPN** |CHI |**JPN**|1|
+
+</details>
+
 ## 230907 - One day to go
 
 OK I'm super late since it starts tomorrow!
