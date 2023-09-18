@@ -1,5 +1,26 @@
 # Rugby 2023
 
+## 230912 - Results pool 2
+So, how did it go with the second  phase? Well I got 87.5% of winners right (7 out 8). Admittedly this round 2 was not surprising except for FIJ which seems to be a real outlier performer! All in all I got 13 out of 16, so 81.25% right so far.
+
+<details>
+ <summary>Results of second round of pool games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|**FRA** |URU| **FRA**|1|
+|**NZL** |NAM |**NZL**|1|
+|**SAM** |CHI |**SAM**|1|
+|**WAL** |POR |**WAL**|1|
+|**IRE** |TGA |**IRE**|1|
+|**RSA** |ROU |**RSA**|1|
+|**AUS** |FIJ |**FIJ**|0|
+|**ENG** |JPN |**ENG**|1|
+
+</details>
+
 # 230912 - bets on pool #2
 
 Here they are, done with the latest ratings. Seems all straightforward, but who knows what will happen?
@@ -20,7 +41,7 @@ ENG 99.9% -- JPN 0.0%
 
 </details>
 
-What I would like to do: get some sort of confidence interval. Maybe use historical data to compute my own ranking, using Bradley-Terry, which is what I wanted to do initially. By using more or less historical data, I could make several models, and get a confidence interval like that.
+Notes to self: What I would like to do - get some sort of confidence interval. Maybe use historical data to compute my own ranking, using Bradley-Terry, which is what I wanted to do initially. By using more or less historical data, I could make several models, and get a confidence interval like that.
 
 ## 230912 - After first phase of pool games
 So, how did it go with the first phase? Well I got 75% of winners right (6 out 8)
