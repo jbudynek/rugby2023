@@ -1,6 +1,6 @@
 # Rugby 2023
 
-## 230912 - Results pool 2
+## 230918 - Results pool 2
 So, how did it go with the second  phase? Well I got 87.5% of winners right (7 out 8). Admittedly this round 2 was not surprising except for FIJ which seems to be a real outlier performer! All in all I got 13 out of 16, so 81.25% right so far.
 
 <details>
