@@ -1,5 +1,25 @@
 # Rugby 2023
 
+## 230918 Pool #3 games
+
+Here they are, done with the latest ratings. Three games look undecided.
+
+<details>
+ <summary>Pool #3 games!</summary>
+
+```
+ITA 99.9% -- URU 0.0%
+FRA 99.9% -- NAM 0.0%
+ARG 80.1% -- SAM 19.8%
+GEO 99.6% -- POR 0.3%
+ENG 99.9% -- CHI 0.0%
+RSA 46.1% -- IRE 53.8%
+SCO 99.9% -- TGA 0.0%
+WAL 84.0% -- AUS 15.9%
+```
+
+</details>
+
 ## 230918 - Results pool 2
 So, how did it go with the second  phase? Well I got 87.5% of winners right (7 out 8). Admittedly this round 2 was not surprising except for FIJ which seems to be a real outlier performer! All in all I got 13 out of 16, so 81.25% right so far.
 
@@ -21,7 +41,7 @@ My bets are in bold.
 
 </details>
 
-# 230912 - bets on pool #2
+## 230912 - bets on pool #2
 
 Here they are, done with the latest ratings. Seems all straightforward, but who knows what will happen?
 

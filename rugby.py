@@ -5,7 +5,7 @@ import choix
 
 DBG = False
 
-with open('ratings-230911.json') as json_file:
+with open('ratings-230918.json') as json_file:
     data = json.load(json_file)
 
 if DBG: print(data)
@@ -67,21 +67,21 @@ all_pool = [
 #	['AUS','GEO'],
 #	['ENG','ARG'],
 #10/9  	
- #   ['RSA','SCO'],
+#   ['RSA','SCO'],
 #	['WAL','FIJ'],
 #	['JPN','CHI'],
 #POOL 2 - 14/9  	
-    ['FRA','URU'],
+#   ['FRA','URU'],
 #15/9  	
-    ['NZL','NAM'],
+#   ['NZL','NAM'],
 #16/9  	
-	['SAM','CHI'],
-	['WAL','POR'],
-    ['IRE','TGA'],
+#	['SAM','CHI'],
+#	['WAL','POR'],
+#   ['IRE','TGA'],
 #17/9  	
-    ['RSA','ROU'],
-	['AUS','FIJ'],
-	['ENG','JPN'],
+#   ['RSA','ROU'],
+#	['AUS','FIJ'],
+#	['ENG','JPN'],
 #POOL 3 - 20/9  	
     ['ITA','URU'],
 #21/9  	
