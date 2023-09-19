@@ -1,6 +1,28 @@
 # Rugby 2023
 
-## 230918 Pool #3 games
+## 230919: Make your own kind of rankings
+I've been doing it wrong since day one. The ranking score given by World Rugby are not good input to `choix` lib, as they were not computed by Bradley-Terry.
+Those 99.9% looked too good to be true, of course. So: I downloaded past games scores (2013 onwards, maybe it's too much), computed the rankings properly , and computed probabilities properly. Also, refactoring of the code. Here are new numbers that make more sense.
+
+<details>
+ <summary>Pool #3 games - sensible!</summary>
+
+```
+ITA 49.8% -- URU 50.1%
+FRA 74.9% -- NAM 25.0%
+ARG 62.5% -- SAM 37.4%
+GEO 72.7% -- POR 27.2%
+ENG 93.1% -- CHI 6.8%
+RSA 50.5% -- IRE 49.4%
+SCO 71.2% -- TGA 28.7%
+WAL 45.7% -- AUS 54.2%
+```
+
+</details>
+
+Notes to self: I still need some sort of confidence interval. Also some data cleaning would be nice, maybe use only past matches from teams that actually compete in the world cup - the pronostics on ITA-URU seem off, maybe that's due to bad data. See `01_scrape-matches.py` for the calls to a nice API that has loads of past data.
+
+## 230918: Pool #3 games
 
 Here they are, done with the latest ratings. Three games look undecided.
 
@@ -20,7 +42,7 @@ WAL 84.0% -- AUS 15.9%
 
 </details>
 
-## 230918 - Results pool 2
+## 230918: Results pool 2
 So, how did it go with the second  phase? Well I got 87.5% of winners right (7 out 8). Admittedly this round 2 was not surprising except for FIJ which seems to be a real outlier performer! All in all I got 13 out of 16, so 81.25% right so far.
 
 <details>
@@ -41,7 +63,7 @@ My bets are in bold.
 
 </details>
 
-## 230912 - bets on pool #2
+## 230912: Bets on pool #2
 
 Here they are, done with the latest ratings. Seems all straightforward, but who knows what will happen?
 
@@ -63,7 +85,7 @@ ENG 99.9% -- JPN 0.0%
 
 Notes to self: What I would like to do - get some sort of confidence interval. Maybe use historical data to compute my own ranking, using Bradley-Terry, which is what I wanted to do initially. By using more or less historical data, I could make several models, and get a confidence interval like that.
 
-## 230912 - After first phase of pool games
+## 230912: After first phase of pool games
 So, how did it go with the first phase? Well I got 75% of winners right (6 out 8)
 
 <details>
@@ -84,7 +106,7 @@ My bets are in bold.
 
 </details>
 
-## 230907 - One day to go
+## 230907: One day to go
 
 OK I'm super late since it starts tomorrow!
 
@@ -150,7 +172,7 @@ JPN 0.0% -- ARG 99.9%
 
 </details>
 
-## 230831 - Introduction
+## 230831: Introduction
 
 The Rugby World cup is about to start, and I have been invited to a pronostic league by my colleagues.
 I have been using random Excel formulas for years to predict outcomes in the Football world cups, with limited success.
