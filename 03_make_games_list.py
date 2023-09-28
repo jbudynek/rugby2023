@@ -47,7 +47,7 @@ print(df)
 
 print(f"{invalid} invalid matches")
 
-df.to_csv("all_games.csv")
+df.to_csv("games/all_games.csv")
 
 
 quit()

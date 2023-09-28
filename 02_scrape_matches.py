@@ -9,7 +9,8 @@ PAGE_SIZE = 100
 
 URL = "https://api.wr-rims-prod.pulselive.com/rugby/v3/match"
 
-for year in range(2023, 2009, -1):
+# for year in range(2023, 2009, -1):
+for year in [2023]:
     params = {
         "endDate": str(year) + "-12-31",
         "startDate": str(year) + "-01-01",
