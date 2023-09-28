@@ -2,7 +2,7 @@
 
 ## 230928: box and whiskers plots!
 
-In the last few of days I managed to hack my way to where I wanted to go:
+In the last few days I managed to hack my way to where I wanted to go:
 
 - looking back in time, use an increasing quantity of data to fit a Bradley-Terry model
 - use those models to generate a few win probabilities for the same event
