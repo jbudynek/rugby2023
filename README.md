@@ -1,5 +1,75 @@
 # Rugby 2023
 
+## 230928: box and whiskers plots!
+
+In the last few of days I managed to hack get where I wanted to go: 
+
+- looking back in time, use an increasing quantity of data to fit a Bradley-Terry model
+- use those models to generate a few win probabilities for the same event
+- make boxplots!
+
+Here is a beautiful plot for pool #4 pronostics:
+
+![Pool4](boxplots/whisk-2021-2023.png)
+
+Note to self: 3 numbers are not enough to make a boxplot! Also, using one-year increments to go back in time makes no particular sense.
+
+(Also, refactored the python files.)
+
+## 230925: basic pool #4 pronostics
+
+For this new round of pool games, we see that the pronostics are sometimes different when using rankings or B-T.
+
+<details>
+ <summary>Pool #4 games</summary>
+
+```
+** FROM RATINGS **
+URU 99.1% -- NAM 0.8%
+JPN 23.2% -- SAM 76.7%
+NZL 99.9% -- ITA 0.0%
+ARG 99.9% -- CHI 0.0%
+FIJ 99.9% -- GEO 0.0%
+SCO 99.9% -- ROU 0.0%
+AUS 99.8% -- POR 0.1%
+RSA 99.9% -- TGA 0.0%
+** FROM BRADLEY-TERRY **
+URU 43.2% -- NAM 56.7%
+JPN 61.9% -- SAM 38.0%
+NZL 91.7% -- ITA 8.2%
+ARG 83.6% -- CHI 16.3%
+FIJ 49.5% -- GEO 50.4%
+SCO 59.2% -- ROU 40.7%
+AUS 80.7% -- POR 19.2%
+RSA 83.7% -- TGA 16.2%
+```
+</details>
+
+Notes to self: There are many algorithms in `choix`. URU-NAM still seems off in BT. Also need a way to take draws into account.
+
+## 230925: pool #3 results
+
+So, how did it go with the third round? Well I got 62.5% of winners right (5 out 8). 
+All in all I got 18 out of 24, so 75% right so far.
+
+<details>
+ <summary>Results of round 3 of pool games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|**ITA** |URU| **ITA**|1|
+|**FRA** |NAM |**FRA**|1|
+|**ARG** |SAM |**ARG**|1|
+|**GEO** |POR |**POR**|0|
+|**ENG** |CHI |**ENG**|1|
+|**RSA** |IRE |**IRE**|0|
+|**SCO** |TGA |**SCO**|1|
+|WAL |**AUS** |**WAL**|0|
+
+</details>
+
 ## 230919: Make your own kind of rankings
 I've been doing it wrong since day one. The ranking score given by World Rugby are not good input to `choix` lib, as they were not computed by Bradley-Terry.
 Those 99.9% looked too good to be true, of course. So: I downloaded past games scores (2013 onwards, maybe it's too much), computed the rankings properly , and computed probabilities properly. Also, refactoring of the code. Here are new numbers that make more sense.
@@ -20,7 +90,7 @@ WAL 45.7% -- AUS 54.2%
 
 </details>
 
-Notes to self: I still need some sort of confidence interval. Also some data cleaning would be nice, maybe use only past matches from teams that actually compete in the world cup - the pronostics on ITA-URU seem off, maybe that's due to bad data. See `01_scrape-matches.py` for the calls to a nice API that has loads of past data.
+Notes to self: I still need some sort of confidence interval. Also some data cleaning would be nice, maybe use only past matches from teams that actually compete in the world cup - the pronostics on ITA-URU seem off, maybe that's due to bad data. See `scrape-matches.py` for the calls to a nice API that has loads of past data.
 
 ## 230918: Pool #3 games
 
