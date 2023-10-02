@@ -1,16 +1,52 @@
 # Rugby 2023
 
+## 231020: pronostics for pool #5
+
+Plots for pool #5 games pronostics:
+
+![Pool5](boxplots/_p5_whisk-2019-12-31-2023-12-31.png)
+
+There could be a surprise in WAL-GEO, ENG-SAM and TGA-ROU.
+
+New: Models are built used time periods that make some sense, from 2020 to today (roughly, 6 months intervals). Also, refactored.
+
+Future work: Do backtesting. Use other modeling possibilities (in `choix`, or find other implementation).
+
+## 230102: pool #4 results
+
+So, how did it go with the fourth round? Well I got 87.5% of winners right (7 out 8).
+All in all I got 25 games right out of 32, so 78% success rate so far.
+
+<details>
+ <summary>Results of round 4 of pool games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|**URU** |NAM| **URU**|1|
+|JAP |**SAM** |**JAP**|0|
+|**NZL** |ITA |**NZL**|1|
+|**ARG** |CHI |**ARG**|1|
+|**FIJ** |GEO |**FIJ**|1|
+|**SCO** |ROM |**SCO**|1|
+|**AUS** |POR |**AUS**|1|
+|**RSA** |TGA |**RSA**|1|
+
+</details>
+
+
 ## 230928: box and whiskers plots!
 
 In the last few days I managed to hack my way to where I wanted to go:
 
-- looking back in time, use an increasing quantity of data to fit a Bradley-Terry model
-- use those models to generate a few win probabilities for the same event
+- looking back in time, use an increasing quantity of data to fit several Bradley-Terry models
+- use those models to generate several win probabilities for the same event
 - make boxplots!
 
 Here is a beautiful plot for pool #4 pronostics:
 
-![Pool4](boxplots/whisk-2021-2023.png)
+![Pool4](boxplots/_p4_whisk-2021-2023.png)
 
 Note to self: 3 numbers are not enough to make a boxplot! Also, using one-year increments to go back in time makes no particular sense.
 
