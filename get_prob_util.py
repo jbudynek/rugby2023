@@ -1,6 +1,42 @@
-import numpy as np
 import choix
+import numpy as np
 
+WORLD_CUP_TEAMS = [
+    "ARG",
+    "AUS",
+    "CHI",
+    "ENG",
+    "FIJ",
+    "FRA",
+    "GEO",
+    "IRE",
+    "ITA",
+    "JPN",
+    "NAM",
+    "NZL",
+    "POR",
+    "ROU",
+    "RSA",
+    "SAM",
+    "SCO",
+    "TGA",
+    "URU",
+    "WAL",
+]
+
+BOUNDS = [
+    #"2018-12-31",
+    #"2019-06-30",
+    "2019-12-31",
+    "2020-06-30",
+    "2020-12-31",
+    "2021-06-30",
+    "2021-12-31",
+    "2022-05-30",
+    "2022-12-31",
+    "2023-06-30",
+    "2023-12-31",
+]
 
 # POOL GAMES
 ALL_POOL = [
@@ -41,30 +77,30 @@ ALL_POOL = [
     #    ["SCO", "TGA"],
     #    ["WAL", "AUS"],
     # POOL 4 - 27/9
-    ["URU", "NAM"],
+    #    ["URU", "NAM"],
     # 28/9
-    ["JPN", "SAM"],
+    #    ["JPN", "SAM"],
     # 29/9
-    ["NZL", "ITA"],
+    #    ["NZL", "ITA"],
     # 30/9
-    ["ARG", "CHI"],
-    ["FIJ", "GEO"],
-    ["SCO", "ROU"],
+    #    ["ARG", "CHI"],
+    #    ["FIJ", "GEO"],
+    #    ["SCO", "ROU"],
     # 1/10
-    ["AUS", "POR"],
-    ["RSA", "TGA"],
+    #    ["AUS", "POR"],
+    #    ["RSA", "TGA"],
     # POOL 5 - 5/10
-    #    ["NZL", "URU"],
+    ["NZL", "URU"],
     # 6/10
-    #    ["FRA", "ITA"],
+    ["FRA", "ITA"],
     # 7/10
-    #    ["WAL", "GEO"],
-    #    ["ENG", "SAM"],
-    #    ["IRE", "SCO"],
+    ["WAL", "GEO"],
+    ["ENG", "SAM"],
+    ["IRE", "SCO"],
     # 8/10
-    #    ["JPN", "ARG"],
-    #    ["TGA", "ROU"],
-    #    ["FIJ", "POR"],
+    ["JPN", "ARG"],
+    ["TGA", "ROU"],
+    ["FIJ", "POR"],
 ]
 
 

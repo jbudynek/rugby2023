@@ -1,5 +1,6 @@
 import pandas as pd
-from get_prob_util import ALL_POOL, pronostics, get_prob
+
+from get_prob_util import ALL_POOL, pronostics
 
 df = pd.read_csv("ratings/matrix_from_ratings.csv", index_col=0)
 
