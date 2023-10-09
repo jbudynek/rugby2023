@@ -1,5 +1,29 @@
 # Rugby 2023
 
+## 231009: pool #5 results
+
+So, how did it go with the fifth round? Well I got 75% of winners right (6 out 8). The surprise (POR) did not come from where I thought (ROU).
+All in all I got 31 games right out of 40, so 77.5% success rate so far.
+
+<details>
+ <summary>Results of round 5 of pool games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|**NZL** |URU| **NZL**|1|
+|**FRA** |ITA |**FRA**|1|
+|**WAL** |GEO |**WAL**|1|
+|**ENG** |SAM |**ENG**|1|
+|**IRE** |SCO |**IRE**|1|
+|JPN |**ARG** |**ARG**|1|
+|TGA |**ROU** |**TGA**|0|
+|**FIJ** |POR |**POR**|0|
+
+</details>
+
+
 ## 231020: pronostics for pool #5
 
 Plots for pool #5 games pronostics:
@@ -12,7 +36,7 @@ New: Models are built used time periods that make some sense, from 2020 to today
 
 Future work: Do backtesting. Use other modeling possibilities (in `choix`, or find other implementation).
 
-## 230102: pool #4 results
+## 231002: pool #4 results
 
 So, how did it go with the fourth round? Well I got 87.5% of winners right (7 out 8).
 All in all I got 25 games right out of 32, so 78% success rate so far.
