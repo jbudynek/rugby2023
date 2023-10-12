@@ -1,9 +1,17 @@
 # Rugby 2023
 
+## 231012: bets for quarters
+
+Plots for quarter finals bets:
+
+![quarters](boxplots/_q_whisk-2019-12-31-2023-12-31.png)
+
+There could be a surprise in... well at this point, anything goes!
+
 ## 231009: pool #5 results
 
 So, how did it go with the fifth round? Well I got 75% of winners right (6 out 8). The surprise (POR) did not come from where I thought (ROU).
-All in all I got 31 games right out of 40, so 77.5% success rate so far.
+All in all I got 31 games right out of 40, so 77.5% success rate for the pool games! Yay for me.
 
 <details>
  <summary>Results of round 5 of pool games</summary>
@@ -24,9 +32,9 @@ My bets are in bold.
 </details>
 
 
-## 231020: pronostics for pool #5
+## 231002: bets for pool #5
 
-Plots for pool #5 games pronostics:
+Plots for pool #5 games bets:
 
 ![Pool5](boxplots/_p5_whisk-2019-12-31-2023-12-31.png)
 
@@ -68,7 +76,7 @@ In the last few days I managed to hack my way to where I wanted to go:
 - use those models to generate several win probabilities for the same event
 - make boxplots!
 
-Here is a beautiful plot for pool #4 pronostics:
+Here is a beautiful plot for pool #4 bets:
 
 ![Pool4](boxplots/_p4_whisk-2021-2023.png)
 
@@ -76,9 +84,9 @@ Note to self: 3 numbers are not enough to make a boxplot! Also, using one-year i
 
 (Also, refactored the python files.)
 
-## 230925: basic pool #4 pronostics
+## 230925: basic pool #4 bets
 
-For this new round of pool games, we see that the pronostics are sometimes different when using rankings or B-T.
+For this new round of pool games, we see that the bets are sometimes different when using rankings or B-T.
 
 <details>
  <summary>Pool #4 games</summary>
@@ -150,7 +158,7 @@ WAL 45.7% -- AUS 54.2%
 
 </details>
 
-Notes to self: I still need some sort of confidence interval. Also some data cleaning would be nice, maybe use only past matches from teams that actually compete in the world cup - the pronostics on ITA-URU seem off, maybe that's due to bad data. See `scrape-matches.py` for the calls to a nice API that has loads of past data.
+Notes to self: I still need some sort of confidence interval. Also some data cleaning would be nice, maybe use only past matches from teams that actually compete in the world cup - the bets on ITA-URU seem off, maybe that's due to bad data. See `scrape-matches.py` for the calls to a nice API that has loads of past data.
 
 ## 230918: Pool #3 games
 
@@ -304,9 +312,9 @@ JPN 0.0% -- ARG 99.9%
 
 ## 230831: Introduction
 
-The Rugby World cup is about to start, and I have been invited to a pronostic league by my colleagues.
+The Rugby World cup is about to start, and I have been invited to a betting league by my colleagues.
 I have been using random Excel formulas for years to predict outcomes in the Football world cups, with limited success.
-This time I want to explore how to generate sensible pronostics in a data-driven fashion. This is my journal. Yay!
+This time I want to explore how to generate sensible bets in a data-driven fashion. This is my journal. Yay!
 
 So, first thing, I remembered my ex-colleague Dr. Fabien Llobell explained how to predict winners for the football world cup in 2022.
 He is head of research at the company that sells a widely used statistics plugin for Excel (disclaimer: I used to work there too), so for sure he knows what he's talking about. Here is his write-up: https://medium.com/xlstat/football-score-predictions-with-the-bradley-terry-model-e0a8a7ebfd83
