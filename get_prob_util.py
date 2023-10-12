@@ -38,6 +38,27 @@ BOUNDS = [
     "2023-12-31",
 ]
 
+# FINALS
+ALL_FINAL_ROUNDS = [
+    # QUARTERS
+    # 14/10
+      	['WAL','ARG'],
+     	['IRE','NZL'],
+    # 15/10
+     	['ENG','FIJ'],
+     	['FRA','RSA'],
+    # SEMIS
+    # 20/10
+    #   ['xxx','xxx'],
+    # 21/10
+    # 	['xxx','xxx'],
+    # FINALS
+    # 27/10
+    # 	['xxx','xxx'],
+    # 28/10
+    # 	['xxx','xxx'],
+]
+
 # POOL GAMES
 ALL_POOL = [
     # POOL 1
@@ -102,6 +123,8 @@ ALL_POOL = [
     ["TGA", "ROU"],
     ["FIJ", "POR"],
 ]
+
+
 
 
 def pronostics(match, matrix):

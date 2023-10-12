@@ -7,7 +7,7 @@ from get_prob_util import get_prob
 
 DBG = False
 
-with open("ratings/ratings-231002.json") as json_file:
+with open("ratings/ratings-231009.json") as json_file:
     data = json.load(json_file)
 
 if DBG:
