@@ -42,16 +42,16 @@ BOUNDS = [
 ALL_FINAL_ROUNDS = [
     # QUARTERS
     # 14/10
-      	['WAL','ARG'],
-     	['IRE','NZL'],
+#      	['WAL','ARG'],
+#     	['IRE','NZL'],
     # 15/10
-     	['ENG','FIJ'],
-     	['FRA','RSA'],
+#     	['ENG','FIJ'],
+#     	['FRA','RSA'],
     # SEMIS
     # 20/10
-    #   ['xxx','xxx'],
+       ['ARG','NZL'],
     # 21/10
-    # 	['xxx','xxx'],
+     	['ENG','RSA'],
     # FINALS
     # 27/10
     # 	['xxx','xxx'],
