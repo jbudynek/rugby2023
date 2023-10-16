@@ -11,7 +11,7 @@ Winners should be obvious... at least in the boxplots!
 ## 231016: quarters results
 
 The quarter final games were a total miss for me, I got **zero** game right! 
-All in all I sill got got 31 games right out of 44, a global success rate of 70.5%.
+All in all I still got got 31 games right out of 44, a global success rate of 70.5%.
 
 <details>
  <summary>Results of quarter final games</summary>
