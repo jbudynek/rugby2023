@@ -1,5 +1,34 @@
 # Rugby 2023
 
+## 231019: bets for semis
+
+Plots for semi finals bets:
+
+![quarters](boxplots/_s_whisk-2019-12-31-2023-12-31.png)
+
+Winners should be obvious... at least in the boxplots!
+
+## 231016: quarters results
+
+The quarter final games were a total miss for me, I got **zero** game right! 
+All in all I sill got got 31 games right out of 44, a global success rate of 70.5%.
+
+<details>
+ <summary>Results of quarter final games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|**WAL** |ARG| **ARG**|0|
+|**IRE** |NZL |**NZL**|0|
+|ENG |**FIJ** |**ENG**|0|
+|**FRA** |RSA |**RSA**|0|
+
+</details>
+
+
+
 ## 231012: bets for quarters
 
 Plots for quarter finals bets:
@@ -11,7 +40,7 @@ There could be a surprise in... well at this point, anything goes!
 ## 231009: pool #5 results
 
 So, how did it go with the fifth round? Well I got 75% of winners right (6 out 8). The surprise (POR) did not come from where I thought (ROU).
-All in all I got 31 games right out of 40, so 77.5% success rate for the pool games! Yay for me.
+All in all I got 31 games right out of 40, so **77.5% success rate for the pool games!** Yay for me.
 
 <details>
  <summary>Results of round 5 of pool games</summary>
