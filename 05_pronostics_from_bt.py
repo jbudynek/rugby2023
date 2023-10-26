@@ -34,7 +34,7 @@ plt.ylim(0, 1)
 plt.boxplot(whisk.values(), labels=whisk.keys())
 plt.xticks(rotation=45)
 plt.title(
-    f"Boxplots for rugby 2023 semis\nusing data from {BOUNDS[0]} to {BOUNDS[-1]}"
+    f"Boxplots for rugby 2023 final games\nusing data from {BOUNDS[0]} to {BOUNDS[-1]}"
 )
 plt.ylabel("Probability that team 1 wins")
 plt.axhline(0.5, color="r", linestyle="--")

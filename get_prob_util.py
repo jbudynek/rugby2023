@@ -49,14 +49,14 @@ ALL_FINAL_ROUNDS = [
 #     	['FRA','RSA'],
     # SEMIS
     # 20/10
-       ['ARG','NZL'],
+#       ['ARG','NZL'],
     # 21/10
-     	['ENG','RSA'],
+#     	['ENG','RSA'],
     # FINALS
     # 27/10
-    # 	['xxx','xxx'],
+     	['ARG','ENG'],
     # 28/10
-    # 	['xxx','xxx'],
+     	['NZL','RSA'],
 ]
 
 # POOL GAMES
