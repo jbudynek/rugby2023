@@ -1,17 +1,44 @@
 # Rugby 2023
 
+## 231027: bets for finals
+
+Plots for the two final games:
+
+![finals](boxplots/_f_whisk-2019-12-31-2023-12-31.png)
+
+Slight advantages are visible in the boxplots, but we'll see what happens!
+
+## 231023: semis results
+
+The semi final games were both predictable! 
+All in all I got 33 games right out of 46, a global success rate of 71.7%.
+
+<details>
+ <summary>Results of semi final games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|ARG |**NZL**| **NZL**|1|
+|ENG |**RSA** |**RSA**|1|
+
+</details>
+
+
+
 ## 231019: bets for semis
 
 Plots for semi finals bets:
 
-![quarters](boxplots/_s_whisk-2019-12-31-2023-12-31.png)
+![semis](boxplots/_s_whisk-2019-12-31-2023-12-31.png)
 
 Winners should be obvious... at least in the boxplots!
 
 ## 231016: quarters results
 
 The quarter final games were a total miss for me, I got **zero** game right! 
-All in all I still got got 31 games right out of 44, a global success rate of 70.5%.
+All in all I still got 31 games right out of 44, a global success rate of 70.5%.
 
 <details>
  <summary>Results of quarter final games</summary>
