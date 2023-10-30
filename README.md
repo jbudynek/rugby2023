@@ -1,5 +1,25 @@
 # Rugby 2023
 
+## 231030: results of the last two games
+
+I got only one of the two final games right. Well done Springboks!
+All in all I got 34 games right out of 48, a global success rate of 70.8%. That was really fun.
+
+<details>
+ <summary>Results of final games</summary>
+
+My bets are in bold.
+
+| Team 1 | Team 2 | Winner | 1 if the bet is right |
+|--|--|--|--|
+|ARG |**ENG**| **ENG**|1|
+|**NZL** |RSA |**RSA**|0|
+
+</details>
+
+
+Future works: refactor code, do backtesting to figure out better time split, rewrite modeling code to include home advantage, try this out on football competitions.
+
 ## 231027: bets for finals
 
 Plots for the two final games:
@@ -137,6 +157,11 @@ Here is a beautiful plot for pool #4 bets:
 ![Pool4](boxplots/_p4_whisk-2021-2023.png)
 
 Note to self: 3 numbers are not enough to make a boxplot! Also, using one-year increments to go back in time makes no particular sense.
+
+I used some excellent code from [octonion](https://github.com/octonion) to figure out the syntax of the API, and could not resist looking at his own predictions:
+- parsing code: https://github.com/octonion/rugby/blob/master/world_rugby/scrapers/matches.rb
+- prediction code: https://github.com/octonion/rugby/blob/master/world_rugby/men/lmer.R
+- predictions he made: https://github.com/octonion/rugby/blob/master/world_rugby/men/predict.txt
 
 (Also, refactored the python files.)
 
@@ -315,7 +340,7 @@ Got the World Rankings and points in json, parsed them, then used `choix` to gen
 Then, simply print probabilities as % for the pool games.
 GPT sped me up a lot, I used it as a coding assistant.
 
-Next, I would like to see whether the points ranking from the Rugby world site is really a good input for `choix`, and get some kind of confidence interval. Additionally I could generate my own parameters based on past games, that would be more in the Bradlet-Terry spirit.
+Next, I would like to see whether the points ranking from the Rugby world site is really a good input for `choix`, and get some kind of confidence interval. Additionally I could generate my own parameters based on past games, that would be more in the Bradley-Terry spirit.
 
 By the way, here are the predictions: 
 
